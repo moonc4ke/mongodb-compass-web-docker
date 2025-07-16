@@ -1,0 +1,8 @@
+services:
+  compass-web:
+    image: haohanyang/compass-web
+    container_name: compass-web
+    ports:
+      - "8888:8080"
+    env_file:
+      - .env
